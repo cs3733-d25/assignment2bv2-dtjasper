@@ -1,3 +1,4 @@
+
 import './App.css'
 import Intro from "./components/intro.tsx";
 import Hobby1 from './components/hobby1.tsx';
@@ -15,6 +16,7 @@ function App() {
         <Hobby1/>
         <Hobby2App/>
     </div>
+
   )
 }
 
