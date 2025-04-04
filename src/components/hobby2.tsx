@@ -1,9 +1,9 @@
 import '../App.css'
-import {Table2} from './table2.tsx'
-import {List2} from './list2.tsx'
-import {Form2} from "./form2.tsx";
+import Table2 from './table2.tsx'
+import List2 from './list2.tsx'
+import Form2 from "./form2.tsx";
 
-function Hobby2App(){
+export default function Hobby2App(){
     return(
         <>
             <h1>Crochet - Delia Jasper</h1>
@@ -25,4 +25,3 @@ function Hobby2App(){
     )
 }
 
-export {Hobby2App};

@@ -1,36 +1,21 @@
-import List1 from './components/list1.tsx';
-import Table1 from './components/table1.tsx';
-import Form1 from './components/form1.tsx';
+import List1 from './list1.tsx';
+import Table1 from './table1.tsx';
+import Form1 from './form1.tsx';
 
 export default function Hobby1() {
     return (
-        <html>
-            <body>
-
-            <nav>
-                <ul>
-                    <li><a href="https://magic.wizards.com/en">Official Main Website</a></li>
-                    <li><a href="https://scryfall.com/">Search for Any Card</a></li>
-                    <li><a href="https://moxfield.com/">Search for Player Created Decks</a></li>
-                </ul>
-            </nav>
+        <>
 
             <img
-                src="public/banner.png"
+                src="src/assets/banner.jpg"
                 alt="image"
-                width="640"
-                height="155"
+
             />
 
             <h1>
                 Yael and his Magic: The Gathering Obsession
             </h1>
 
-            <p>
-                My name is Yael Whitson, a Robotics Engineering major at Worcester Polytechnic Institute. I am currently a
-                junior,
-                taking Software Engineering with Professor Wong.
-            </p>
 
             <p>
                 One of my biggest (and admittedly, most expensive) hobbies is Magic: The Gathering, a trading card game
@@ -48,9 +33,6 @@ export default function Hobby1() {
 
             <List1 />
 
-            <p>
-                (White is highlighted in gold because it's my favorite)
-            </p>
 
             <p>
                 See, every color in MTG has a certain archetype which defines its playstyle in the game. Different
@@ -66,12 +48,8 @@ export default function Hobby1() {
             <Form1 />
 
             <br/><br/>
+
             <hr/>
-            <br/><br/>
-
-            <a href="public/styles.css">Want to see my CSS?</a>
-
-            </body>
-        </html>
+        </>
         )
         }

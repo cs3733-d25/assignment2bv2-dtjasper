@@ -1,5 +1,5 @@
 import './List.css'
-function List2(){
+export default function List2(){
     return (
         <>
             <p>Common Yarn Materials:</p>
@@ -14,4 +14,3 @@ function List2(){
     )
 }
 
-export {List2};

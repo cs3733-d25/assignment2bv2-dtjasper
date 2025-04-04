@@ -1,5 +1,5 @@
 import '../App.css'
-function Table2(){
+export default function Table2(){
     return (
         <>
             <table className="collapse">
@@ -36,4 +36,3 @@ function Table2(){
     )
 }
 
-export {Table2};

@@ -2,9 +2,21 @@ ul li {
     display: grid;
 }
 
-ul{
+ul {
     background-color: whitesmoke;
     color: palevioletred;
     border: 5px solid pink;
     font-family: "Century Schoolbook", serif;
 }
+
+ol li {
+    display: grid;
+}
+
+ol{
+    background-color: whitesmoke;
+    color: palevioletred;
+    border: 5px solid pink;
+    font-family: "Century Schoolbook", serif;
+}
+
